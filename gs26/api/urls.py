@@ -9,7 +9,7 @@ router=DefaultRouter()
 
 #Register StudentViewSet with Router
 router.register('stucreate', views.StudentModelViewSet, basename='student') #(IP/stucreste/) is our path to run this API
-#We can write anything in the place of //student//, //router//, //stucreate//
+#We can write anything in the place of //student//, //rouster//, //stucreate//
 
 urlpatterns = [
     path('',include(router.urls)),
